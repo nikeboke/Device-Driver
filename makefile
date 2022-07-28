@@ -20,6 +20,5 @@ unload:
 endif 
 
 // To build our first module, execute the make modules_prepare command from the folder
-  
-  
-  
+// To load the module, we have to execute the make load command from the source file folder. After this, the name of the driver is added to the /proc/modules file, while the device that the module registers is added to the /proc/devices file.
+
