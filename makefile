@@ -26,3 +26,4 @@ endif
 // Major device numbers identify modules serving device files or groups of devices.
 // Minor device numbers identify specific devices among a group of devices specified by a major device number.
 
+// /proc/modules file, while the device that the module registers is added to the /proc/devices file.
